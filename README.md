@@ -10,8 +10,10 @@ Este projeto é um portfólio pessoal desenvolvido em React e TypeScript. Ele é
 
 2. Instale as dependências:
 
-````cd my-portifolio
-npm install```
+```
+cd my-portifolio
+npm install
+```
 
 3. Inicie o servidor de desenvolvimento:
 
@@ -21,16 +23,14 @@ O projeto será inicializado no endereço http://localhost:3000.
 
 ## Personalizando o projeto
 
-Você pode personalizar o projeto de acordo com suas necessidades. Para isso, você pode editar os seguintes arquivos:
+## Tecnologias Utilizadas
 
-* **index.html:** Este arquivo contém o código HTML da página inicial.
-* **src/components/Home.tsx:** Este arquivo contém o código React da página inicial.
-* **src/components/Project.tsx:** Este arquivo contém o código React da página de detalhes de um projeto.
+- React
+- TypeScript
+- React.Email & Resend
 
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
 
-## Espero que este README.md seja útil. Se você tiver alguma dúvida, entre em contato comigo.
-
-````
+## Espero que este README.md seja útil. Se você tiver alguma dúvida, entre em contato comigo em leonardogbombassei@gmail.com .
