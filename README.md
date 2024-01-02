@@ -1,30 +1,36 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# Portfólio React TS
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+Este projeto é um portfólio pessoal desenvolvido em React e TypeScript. Ele é composto por uma página inicial que apresenta o desenvolvedor e seus projetos, e uma página de detalhes para cada projeto.
 
-## What you will learn
+## Passo a passo para a inicialização do projeto
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+1. Clone o projeto do GitHub:
 
-## Important
+`git clone https://github.com/lbombassei/my-portifolio.git`
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+2. Instale as dependências:
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+````cd my-portifolio
+npm install```
 
-## Setup
+3. Inicie o servidor de desenvolvimento:
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+`npm run dev`
+
+O projeto será inicializado no endereço http://localhost:3000.
+
+## Personalizando o projeto
+
+Você pode personalizar o projeto de acordo com suas necessidades. Para isso, você pode editar os seguintes arquivos:
+
+* **index.html:** Este arquivo contém o código HTML da página inicial.
+* **src/components/Home.tsx:** Este arquivo contém o código React da página inicial.
+* **src/components/Project.tsx:** Este arquivo contém o código React da página de detalhes de um projeto.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+## Espero que este README.md seja útil. Se você tiver alguma dúvida, entre em contato comigo.
+
+````
