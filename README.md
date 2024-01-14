@@ -26,6 +26,7 @@ O projeto será inicializado no endereço http://localhost:3000.
 - React
 - TypeScript
 - React.Email & Resend
+- Next.JS
 
 ## Licença
 
