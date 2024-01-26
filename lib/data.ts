@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import spotify from "@/public/spotify.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import caputeeno from "@/public/capputeeno.png";
+import portifolio from "@/public/portifolio.png";
 
 export const links = [
   {
@@ -77,18 +77,34 @@ export const projectsData = [
     imageUrl: spotify,
   },
   {
-    title: "rmtDev",
+    title: "Capputeeno E-Commerce",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Frontend Challenge by Rocketseat where I built a e-commerce from scratch using styled components and NextJS, it has everything from Basic UI components to API Fetch and filters on GraphiQL and cache management.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Styled Components",
+      "GraphiQL",
+      "Axios",
+      "React-Query",
+    ],
+    imageUrl: caputeeno,
   },
   {
-    title: "Word Analytics",
+    title: "My Portifolio",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    tags: [
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Resend",
+      "State management",
+      "Responsive Design",
+      "Dark/Light Mode",
+    ],
+    imageUrl: portifolio,
   },
 ] as const;
 
